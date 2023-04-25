@@ -10,7 +10,7 @@ export const HeroCard = ({
   characters
 }) => {
 
-  const handleUrl = `/assets/heroes/${ id }.jpg`;
+  const handleUrl = `./assets/heroes/${ id }.jpg`;
 
   return (
     <div aria-label="hero-cards" className={`animate__animated animate__fadeIn  max-w-sm bg-white rounded-lg m-3 p-3 py-4 border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700`}>
