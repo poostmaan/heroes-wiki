@@ -8,7 +8,7 @@ import { PublicRoute } from './PublicRoute';
 export const AppRouter = () => {
   return (
     <>
-        <Routes location={"/heroes-wiki"}>
+        <Routes>
             <Route path="/login" element={ 
               <PublicRoute>
                 <LoginPage />
